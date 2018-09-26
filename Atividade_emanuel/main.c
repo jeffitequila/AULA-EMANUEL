@@ -5,7 +5,7 @@
 int main()
     //int voto;
 {
-    int canditado1 , canditado2 , canditado3 , canditado4 , brancos, nulos;
+    int candidato1 , candidato2 , candidato3 , candidao4 , brancos, nulos;
 
     printf("ELEICAO 2018\n");
         printf("ESCOLHA SEU CANDIDATO................\n");
@@ -29,12 +29,17 @@ int main()
     scanf("%i",&voto);
 
 
-    }a
+    }
 //FUNÇÃO DE ARMAZENAR OS VOTOS
     int escolher_voto(int voto){
+    	
+    	 int candidato1 , candidato2 , candidato3 , canditado4 , brancos, nulos;
+    	//	candida1 = 0 
+    	//	 canditado2 = 0
+    		 
         switch (voto)
         case '1':
-            candidato1 = canditato1 + 1
+            candidato1 = canditato1	 + 1;
         case '2':
             candidato2 = canditado2 + 1
         case '3':
